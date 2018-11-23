@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package user;
+
+//option go_package = "github.com/jeepli/ichat/proto/user";
+option go_package = "user";
+
+message User {
+    string id = 1;
+    string name = 2;
+    string password = 3;
+    string email = 4;
+}
